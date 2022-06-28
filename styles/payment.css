@@ -1,9 +1,26 @@
-content{
-    height: 500px;
-    width: 500px;
+body{
+    background-color: #e0e0e0;
+}
+header{
+background-color: rosybrown;
 }
 
-#logo{
-    height: 60px;
-    width: 60px;
+footer{
+background-color: rosybrown;
+}
+
+image{
+display: flex;
+ justify-content: center;
+background-color: rgb(132,136,139);
+padding-top: 30px;
+
+}
+section{
+background-color: rgb(132,136,139);
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 20px;
+margin-right: 300px;
+margin-left: 300px;
 }

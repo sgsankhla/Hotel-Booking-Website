@@ -1,25 +1,52 @@
 #logo{
     height: 60px;
     width: 60px;
-   
+ 
 }
-
 #socialMedia{
     height: 22px;
 width: 20px;
 }
-
 #CityImage{
     height: 150px;
     width: 150px;
 }
-
 #hotel{
     height: 150px;
     width: 150px ;
 }
 
-
 body{
     border: 10px;
 }
+
+#hotel1{
+    background-color: rgb(132,136,139);
+    align-items: baseline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 500px;
+    
+ }
+   #hotel2{
+    background-color: rgb(132,136,139);
+    align-items: baseline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 500px;
+    
+   }
+   #hotel3{
+    background-color: rgb(132,136,139);
+    align-items: baseline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 500px;
+    
+
+   
+   }
+
