@@ -8,86 +8,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/detail.css">
     <link rel="stylesheet" href="./styles/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.html" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <title>Detail</title>'
-    
-  
-    
 
-    </style>
+
+    <script>
+
+        var adults
+    </script>
+    
 </head>
-<body>
+
+<body style=border:solid;>
+
+ <div class="mainContainer" style="background-color: #e0e0e0; margin: 0%; "> 
+
+<nav>
+     <header> 
+        <img src="./assests/images/logo.png"   height="60px" width="60px"  alt="logo" >
+        <tr class = "header" style="margin-left:5%;"> <a href="login.html"><span class="login" style="color:black">Login</span></a> </tr></header></nav>
+     </header>
+</nav> 
 
 
-
-
-<header>
-        <img src="/assests/images/logo.png" height="60px" width="60px">
-                       
-              <a href="./login.html"> Login</a>
-                         
-</header>
-
-
-
-
-<div>
-    <div class="redission">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="500px" width="600px">
-        
-        <a href="/payment.html">Book Now</a><br>
-<div>
-</div>
-<main>
-
-
-    <form action="payment.html" method="get">
-        Adult : <input type="number" minlength="1"> <br>
-        Name : <input type="text" required><br>
-        Form Date : <input type="date" required><br>
-        To Date : <input type="date" required><br>
-        Total : <input type="text" ><br>
-        <a href="/payment.html" > <button>BooK Now</button></a> 
-</form>
-
-
-
-<h2>Radisson Blu Hotel</h2>
-<h3>Rating</h3>
-<h3>AMENITIES</h3>
-<ul>
-<li>Room Service</li>
-<li> Restaurant</li>
-<li>Business Center</li>
-<li>Fitness Center</li>
-<li>Pool</li>
-</ul>
-
-
-
-
-<h5>Description</h5>
-<div>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quae eveniet tempora tenetur libero est doloribus dolor eligendi assumenda, voluptatem necessitatibus recusandae aspernatur omnis sint non velit iusto id blanditiis?</p>
-
-
-
-
-    </main>
-
-
-
-<footer><br>
-        <a href="contact.html">CONTACT US</a><br>
-
-<div>
-        <a href="https://www.facebook.com/"><img src="/assests/images/facebook.png" height="20" width="22"> </a>
-        <a href="https://www.instagram.com/"><img src="/assests/images/instagram.png"  height="20" width="22"></a>
-        <a href="https://www.twitter.com/"><img src="/assests/images/twitter.png"  height="20" width="22" ></a>
-       
- </div>
-
-        <p>	&#169; 2020 ROOM SEARCH PVT.LTD</p>
-</footer>
+<div class="parent"  >
     
+    <div class="child1"   style="display:inline-flexbox ; ">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="300px" width="400px">
+        
+
+    <div class="child2" style="font-family:'Ubuntu' , sans-serif  " >
+        <form action="payment.html" method="get"><br><br>
+            Adult    :    <input type="number" minlength="1" required> <br><br>
+            Name    :    <input type="text" required><br><br>
+            Form Date    :    <input type="date" required><br><br>
+            To Date    :    <input type="date" required><br><br>
+            Total    :    <input type="text" ><br><br>
+            <a href="/payment.html" > <button type="button" class="btn btn-outline-success">Book Now</button></a> 
+        </form>
+    </div>
+</div>
+
+
+<div>
+        <h2>Radisson Blu Hotel</h2>
+        <h3>Rating</h3>
+        <h3>AMENITIES</h3>
+        <ul>
+        <li>Room Service</li>
+        <li> Restaurant</li>
+        <li>Business Center</li>
+        <li>Fitness Center</li>
+        <li>Pool</li>
+        </ul>
+
+
+
+        <h5>Description</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro dolor officia optio, saepe pariatur dolorum odit molestias reiciendis dolorem. Dolores, repudiandae! Nulla in, perferendis itaque facilis necessitatibus sit incidunt reprehenderit?</p>
+</div>
+
+<footer  class="footer"  style="background-color: rosybrown; position: sticky;" style="position:fixed">
+
+    <div id="contacttag" style="padding-top: 3%;  margin-left:2% ;" >
+        <a href="./contact.html"  style="background-color:lightseagreen ;"><button type="button" class="btn btn-success">Contact US</button></a>
+
+
+        <div id="room" style="margin-left: 7%" style="padding-top: 3%;">
+            <p>&#169; 2020 ROOM SEARCH PVT.LTD </p>
+        
+                <a href="https://www.facebook.com/"><img src="./assests/images/facebook.png"  height="20" width="22"  target="_blank"> </a>
+                <a href="https://www.instagram.com/"><img src="./assests/images/instagram.png"  height="20" width="22"  target="_blank"></a>
+                <a href="https://www.twitter.com/"><img src="./assests/images/twitter.png"  height="20" width="22"  target="_blank"></a>
+        
+        </div>
+
+        
+</footer>
+
+</div >
 </body>
 </html>

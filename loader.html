@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./styles/loader.css ">
-<title>Loader</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loader</title>
 
-<style>
-    body{
-        border-color: #f3f3f3;
-        border-top-color: #444444;
-    }
+  <style>
+    .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #0e0e0e;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite; 
+  animation: spin 1s linear infinite;
+  margin-left: 45%;
+  margin-top : 20% ;
+}
 
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
 
-</style>
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  </style>
 </head>
 <body>
-    
+
+  <div class="loader"></div>
+  
 </body>
 </html>
