@@ -12,7 +12,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="styles/loader.css">
         <link rel="stylesheet" href="styles/common.css">
-        <link rel="stylesheet" href="styles/detail.css">   
+        <link rel="stylesheet" href="styles/detail.css">
+        
+        
     </head>
 
     <body>
@@ -153,5 +155,22 @@
 
         <script src="scripts/common.js"></script>
         <script src="scripts/detail.js"></script>
+
+
+        <div id="map"></div>
+        <script async defer
+       src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap
+       "></script>
+        <script>
+        var map;
+        function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8
+        });
+        }
+        </script>
+
+        </div>
     </body>
 </html>
